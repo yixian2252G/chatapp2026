@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: linear-gradient(to bottom, pink, rgb(251, 78, 107) );
+}
+
+.dashboard {
+    background-color: rgb(251, 78, 107);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.dashboard h1 {
+    font-family: monospace;
+    font-size: 24px;
+    color: pink;
+}
+
+.loginBtn, .logoutBtn, .addChatBtn {
+    background-color: pink;
+    font-family: fantasy;
+    font-weight: 14px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.loginBtn:hover {
+    background-color:  rgb(176, 222, 190);
+}
+
+.logoutBtn:hover {
+    background-color: rgb(212, 176, 222);
+}
+
+.addChatBtn:hover {
+    background-color:lightsteelblue;;
+}
+
+.chatBox {
+    width: 150px;
+    height: 180px;
+    position: absolute;
+    background-color: rgb(229, 168, 255);
+    border: 3px black solid;
+}
+
+.toolbar {
+    background-color: rgb(200, 70, 255);
+    text-align: right;
+    height: 26px;
+}
+
+.close {
+    margin-right: 5px;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: red;
+}
+
+.dashboard p {
+    color: snow;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.owner {
+    padding: 5px 8px;
+    background-color: rgb(156, 68, 177);
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
